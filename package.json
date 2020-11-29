@@ -1,7 +1,7 @@
 {
   "name": "michalbros3ic1",
   "version": "1.0.0",
-  "description": "MichałBroś3ic1, mini projekt",
+  "description": "mini projekt",
   "main": "server01.js",
   "dependencies": {
     "express": "^4.17.1"
@@ -10,14 +10,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MBrosik/MichalBros3ic1.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MBrosik/MichalBros3ic1/issues"
-  },
-  "homepage": "https://github.com/MBrosik/MichalBros3ic1#readme"
+  "author": "MichalBros3ic1",
+  "license": "ISC"
 }
