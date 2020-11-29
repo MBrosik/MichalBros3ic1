@@ -157,7 +157,7 @@ function sorting(req, res){
             string += `</body> </html>`;
             res.send(string);
       }
-      else res.send("Nie jesteś zalogowany!");
+      else res.redirect('/admin');
 }
 app.get("/gender", (req, res) => {
       if (login) {
@@ -211,7 +211,7 @@ app.get("/gender", (req, res) => {
 
             res.send(string);
       }
-      else res.send("Nie jesteś zalogowany!");
+      else res.redirect('/admin');
 
 })
 app.get("/show", (req, res) => {
@@ -255,7 +255,7 @@ app.get("/show", (req, res) => {
             res.send(string);
       }
 
-      else res.send("Nie jesteś zalogowany!");
+      else res.redirect('/admin');
 })
 
 app.get("/logout", (req, res) => {
