@@ -157,7 +157,7 @@ function sorting(req, res){
             string += `</body> </html>`;
             res.send(string);
       }
-      else res.redirect('/admin');
+      else res.sendFile(path.join(__dirname + "/static/pages/admin.html"));
 }
 app.get("/gender", (req, res) => {
       if (login) {
@@ -211,7 +211,7 @@ app.get("/gender", (req, res) => {
 
             res.send(string);
       }
-      else res.redirect('/admin');
+      else res.sendFile(path.join(__dirname + "/static/pages/admin.html"));
 
 })
 app.get("/show", (req, res) => {
@@ -255,7 +255,7 @@ app.get("/show", (req, res) => {
             res.send(string);
       }
 
-      else res.redirect('/admin');
+      else res.sendFile(path.join(__dirname + "/static/pages/admin.html"));
 })
 
 app.get("/logout", (req, res) => {
