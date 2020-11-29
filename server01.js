@@ -241,7 +241,7 @@ app.get("/show", (req, res) => {
             <tr>\
                   <td>id: ${el.id}</td>\
                   <td>user: ${el.log} - ${el.pass}</td>\
-                  <td>uczeń: <input type="checkbox" name="uczen" ${el.uczen}> </td>\
+                  <td>uczeń: <input type="checkbox" name="uczen" ${el.uczen} disabled> </td>\
                   <td>wiek: ${el.wiek}</td>\
                   <td>płeć: ${el.plec}</td>\
             </tr>\
