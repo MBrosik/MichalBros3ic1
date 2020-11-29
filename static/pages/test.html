@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body class="blackbody">
+
+      <div class="topbar">
+            <a href="/sort">sort</a>
+            <a href="/gender">gender</a>
+            <a href="/show">show</a>
+      </div>
+
+      <form class="changeform" onchange="this.submit()" post="/sort">
+            <input type="radio" name="sort" value="growing" >
+            <label>Rosnąco</label>
+            <input type="radio" name="sort" value="declining">
+            <label>Malejąco</label>
+      </form>
+
+      <table>
+            <tr>
+                  <td>id: 1</td>\
+                  <td>user: log - ss</td>
+                  <td>wiek: 15</td>
+            </tr>
+            <tr>
+                  <td>id: 1</td>\
+                  <td>user: siemka - hej</td>
+                  <td>wiek: 34</td>
+            </tr>
+      </table>
+</body>
+
+</html>

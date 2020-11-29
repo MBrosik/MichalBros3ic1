@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+* {
+      box-sizing: border-box;
+      font-family: 'Work Sans', sans-serif;
+}
+
+body {
+      margin: 0;
+      &.blackbody{
+            background-color: black;
+      }
+}
+
+.topbar {
+      width: 100%;
+      color: white;
+      height: 50px;
+      padding: 12px;
+      font-size: 20px;
+
+      a {
+            color: white;
+            margin-left: 5px;
+
+            &:nth-child(1) {
+                  margin-left: 15px;
+            }
+      }
+}
+
+.make-blue {
+      background-color: blue;
+}
+
+.make-red {
+      background-color: red;
+}
+
+.make-yellow{
+      background-color: yellow;
+      a{
+            color: black;
+      }
+}
+
+h1 {
+      margin: 20px auto;
+      width: 1000px;
+      font-size: 70px;
+      text-align: center;
+      color: grey;
+
+      &.wide-h1 {
+            width: 1000px;
+      }
+}
+
+form {
+      margin: 50px auto;
+      width: 290px;
+      font-size: 20px;
+      display: grid;
+      grid-template-columns: 140px 20px 20px 20px 90px;
+      gap: 10px 0px;
+
+      input,
+      select {
+            grid-column: 2 / span 4;
+            margin: auto 0;
+      }
+
+      input[type="radio"] {
+            grid-column: span 1;
+      }
+
+      button {
+            width: 200px;
+            font-size: 15px;
+            height: 30px;
+            margin: auto;
+            border-radius: 20px;
+            grid-column: 1 / span 2;
+      }
+      &.changeform{
+            display: block;
+            color: white;
+            input[type="radio"]{
+                  margin-left: 20px;
+            }
+      }
+}
+
+table{
+      color: white;
+      margin: 30px auto;
+      font-size: 16px;
+      tr{
+            td{
+                  padding: 10px 150px 10px 15px;
+                  border: 1px solid gold ;
+            }
+      }
+}
