@@ -2,7 +2,7 @@
   "name": "michalbros3ic1",
   "version": "1.0.0",
   "description": "mini projekt",
-  "main": "server01.js",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.17.1"
   },
