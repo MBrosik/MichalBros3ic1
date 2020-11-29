@@ -36,7 +36,7 @@ app.get("/register", function (req, res) {
       res.sendFile(path.join(__dirname + "/static/pages/register.html"))
 })
 
-app.post("/registerreq", (req, res) => {
+app.post("/register", (req, res) => {
       // console.log("Dzień dobry");
       function loginExist(login) {
             for (let x = 0; x < users.length; x++) {
@@ -75,7 +75,7 @@ app.get("/login", function (req, res) {
       res.sendFile(path.join(__dirname + "/static/pages/login.html"))
 })
 
-app.post("/loginreq", (req, res) => {
+app.post("/login", (req, res) => {
       if (!login) {
             let user = null;
             for (let x = 0; x < users.length; x++) {
