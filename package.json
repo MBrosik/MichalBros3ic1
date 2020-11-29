@@ -2,13 +2,14 @@
   "name": "michalbros3ic1",
   "version": "1.0.0",
   "description": "mini projekt",
-  "main": "server.js",
+  "main": "server01.js",
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server01.js"
   },
   "author": "MichalBros3ic1",
   "license": "ISC"
